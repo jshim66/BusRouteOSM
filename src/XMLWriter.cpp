@@ -74,7 +74,7 @@ bool CXMLWriter::Flush(){
 }
 
 bool CXMLWriter::WriteEntity(const SXMLEntity &entity){
-    std::string hijane;
+    std::string str;
     SXMLEntity tentity = entity;
     if(tentity.DType == SXMLEntity::EType()){
         if(tentity.DType == SXMLEntity::EType::StartElement){
@@ -85,8 +85,8 @@ bool CXMLWriter::WriteEntity(const SXMLEntity &entity){
                 flushbuffer.pop_back();
             }
         }
-        hijane = otherwriteentity(tentity);
+        str = otherwriteentity(tentity);
     }
-    DOutput << hijane;
+    DOutput << str;
     return true;
 }
