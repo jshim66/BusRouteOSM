@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(include)
 include_directories(libcsv-3.0.3)
 
-add_executable(proj5helpelp
+add_executable(BusRoute
         data/davis.osm
         data/routes.csv
         data/stops.csv
