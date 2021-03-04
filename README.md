@@ -20,6 +20,6 @@ All .cpp files and their respective .h files other than the testing files were c
 
 # Testing
 
-Unfortunately, this program was tested using my professor's test system which consisted of other testing files that are required for the project and it is not currently available.
+Unfortunately, this program was tested using my professor's test system which consisted of other required testing files and it is not currently available.
 
 
