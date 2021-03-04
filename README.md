@@ -22,6 +22,6 @@ All .cpp files and their respective .h files other than the testing files were c
 
 Utilized Google Tests to ensure that the program is functioning as intended.
 
-Unfortunately, this program was tested using my professor's test system which consisted of other required testing files and it is not currently available.
+Unfortunately, this program used my professor's test system which consisted of other required testing files along with testrouter.cpp, and it is currently not available.
 
 
